@@ -1,0 +1,14 @@
+# Web Search Tool Configuration
+api:
+  gemini:
+    key: API_KEY # Can still use environment variables if needed
+    model: "gemini-2.0-flash"
+
+rate_limit:
+  max_requests: 15
+  time_window_seconds: 60
+
+search:
+  max_references: 10
+  timeout: 5
+  max_retries: 3
